@@ -16,6 +16,7 @@ public class MyAdapter extends BaseAdapter {
     LayoutInflater inflater;
     Context context;
     ArrayList<holder> myData;
+    String fuckers;
     static int counter =0;
     public MyAdapter(Context context, ArrayList<holder> myData) {
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
